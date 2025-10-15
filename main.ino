@@ -240,6 +240,7 @@ void transferDataToMeter() {
   meter.last_signal_time = millis();
   meter.last_signal = "내부 데이터 전송";
   
+  //1234
   // 2차측 값 계산
   calculateSecondaryValues();
   calculateMeasuredValues();
